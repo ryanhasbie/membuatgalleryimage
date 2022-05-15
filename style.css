@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    width: 600px;
+    margin: 10px auto;
+    border: 5px solid whitesmoke;
+    overflow: auto;
+}
+
+.thumbs {
+    width: 200px;
+    float: left;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+}
+
+.thumbs:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
